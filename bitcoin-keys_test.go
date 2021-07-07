@@ -139,7 +139,7 @@ func Test_findBtcWifPage(t *testing.T) {
 	}{
 		{
 			"It can find the page that a random WIF is on",
-			args{"5KQkycVaH2urSTz9CQ4fGdWz3a5n9TFKLDwxzREv8tBtcXYW9Ua", 128},
+			args{"1EXcr4Nhq7TAGnqLNjgYay8H3YsZ4wLeVP", 128},
 			"741968862012117112677494014490987968047399326671284349197372731288562495168",
 		},
 		{
